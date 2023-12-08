@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Nome equipe"
+        android:hint="@string/nome_equipe"
+        android:inputType="textAutoComplete"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estadio"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextEstadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Estadio equipe"
+        android:hint="@string/estadio_equipe"
+        android:inputType="textAutoComplete"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ano_de_fundacao"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextAnoDeFundacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Ano de Fundação"
+        android:hint="@string/ano_de_fundacao_da_equipe"
+        android:inputType="textAutoComplete"
+        android:textSize="30sp" />
+
+</LinearLayout>
